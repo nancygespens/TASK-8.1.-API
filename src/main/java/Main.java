@@ -6,12 +6,12 @@ public class Main {
         post.patronymic = "Иванович";
         post.phone = "+7 (999)-999-99-99";
         post.surname = "Иванов";
-        post.subscription = String.valueOf(true);
+        post.subscription = true;
 
-        Post.birthday = new FormDate();
-        post.birthday.day = String.valueOf(13);
-        post.birthday.month = String.valueOf(6);
-        post.birthday.year = String.valueOf(1999);
+        post.birthday = new FormDate();
+        post.birthday.day = 13;
+        post.birthday.month = 6;
+        post.birthday.year = 1999;
 
     }
 
